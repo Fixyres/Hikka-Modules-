@@ -64,7 +64,10 @@ class CalculatorModule(loader.Module):
             result = sympify(expression)
             result_str = self.format_result(result)
             await utils.answer(message, f"🧮 <b>{expression} = {result_str}</b>")
+            time.sleep(120)
+            await message.delete()
         except Exception as e:
             error_message = await utils.answer(message, f"⚠️ <b>Ой! Ошибка!</b>")
-            time.sleep(5)
+            time.sleep(10)
             await error_message.delete()
+            
