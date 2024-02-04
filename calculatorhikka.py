@@ -1,4 +1,4 @@
-from sympy import sympify
+from sympy import sympify, Rational
 from .. import loader, utils
 import time
 
@@ -15,7 +15,7 @@ class CalculatorModule(loader.Module):
 
         try:
             result = sympify(expression)
-            result_str = f"{result:.5e}" if abs(result) > 1e6 else str(result)
+            result_str = f"{result.evalf():.5e}" if abs(result.evalf()) > 1e6 else str(result.evalf())
             await utils.answer(message, f"🧮 <b>{expression} = {result_str}</b>")
         except Exception as e:
             error_message = await utils.answer(message, f"⚠️ <b>Ой! Ошибка!</b>")
