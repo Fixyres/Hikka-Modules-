@@ -16,7 +16,9 @@ class CalculatorModule(loader.Module):
     async def zi(self, message):
         """Включить/выключить закругление до меньшего числа."""
         self.round_down = not self.round_down
-        await utils.answer(message, f"{'🔄 Включено' if self.round_down else '🔄 Выключено'} округление до меньшего числа.")
+        reply_msg = await utils.answer(message, f"{'🔄 Включено' if self.round_down else '🔄 Выключено'} закругление до меньшего числа.")
+        time.sleep(5)
+        await reply_msg.delete()
 
     @loader.command("calc", "<expression>", aliases=["calculate"])
     async def calc(self, message):
