@@ -2,7 +2,7 @@ import logging
 import telebot
 from telebot import types
 
-API_TOKEN = '6499777167:AAG0JngqHDIrRo2gu1OtuCVSTSkNODZ5srU'
+API_TOKEN = 'NODZ5srU'
 
 logging.basicConfig(level=logging.INFO)
 
