@@ -1,10 +1,3 @@
 test:
-    set_loglevel: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Укажи уровень логов числом или строкой</b>"
-    no_logs: "<emoji document_id=5363948200291998612>🤷‍♀️</emoji> <b>У тебя нет логов уровня</b> <code>{}</code><b>.</b>"
-    logs_caption: "<emoji document_id=5188377234380954537>🌘</emoji> <b>Логи Hikka уровня</b> <code>{}</code>\n\n<emoji document_id=6318902906900711458>⚪️</emoji> <b>Версия: {}.{}.{}</b>{}"
-    debugging_enabled: "<emoji document_id=5332533929020761310>✅</emoji> <b>Режим разработчика включен для модуля</b> <code>{0}</code>\n<i>Отправляйся в директорию `debug_modules`, изменяй файл `{0}.py`, и смотри изменения в режиме реального времени</i>"
-    debugging_disabled: "<emoji document_id=5332533929020761310>✅</emoji> <b>Режим разработчика выключен</b>"
-    suspend_invalid_time: "<emoji document_id=5210952531676504517>🚫</emoji> <b>Неверное время заморозки</b>"
-    suspended: "<emoji document_id=5452023368054216810>🥶</emoji> <b>Бот заморожен на</b> <code>{}</code> <b>секунд</b>"
-    results_ping: "<emoji document_id=5467474684700280706>🎩</emoji> 𝑃𝑖𝑛𝑔:</b> <code>{}</code> <b>𝑚𝑠</b>\n<emoji document_id=5399881872375298290>🌖</emoji> 𝑈𝑝𝑇𝑖𝑚𝑒: </b>{}</b>"
-    ping_hint: "<emoji document_id=5303204357565596712>💀</emoji><emoji document_id=5303204357565596712>💀</emoji><emoji document_id=5303204357565596712>💀</emoji><emoji document_id=5303204357565596712>💀</emoji><emoji document_id=5303204357565596712>💀</emoji><emoji document_id=5303204357565596712>💀</emoji><emoji document_id=5303204357565596712>💀</emoji><emoji document_id=5303204357565596712>💀</emoji><emoji document_id=5303204357565596712>💀</emoji>"
+    results_ping: "<emoji document_id=5379811765078997681>🥀</emoji> 𝐺𝑜𝑜𝑜𝑑𝐿𝑢𝑐𝑘𝑃𝑖𝑛𝑔:</b> <code>{}</code> <b>𝑚𝑠</b>\n<emoji document_id=5382187328670282655>🤡</emoji> 𝐺𝑜𝑜𝑜𝑑𝐿𝑢𝑐𝑘𝑈𝑝𝑇𝑖𝑚𝑒: </b>{}</b>"
+    ping_hint: "@GooodLuckbio <emoji document_id=5294166109992265930>🎩</emoji>"
