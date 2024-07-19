@@ -1,0 +1,5 @@
+test:
+    debugging_enabled: "<emoji document_id=5332533929020761310>✅</emoji> <b>Режим разработчика включен для модуля</b> <code>{0}</code>\n<i>Отправляйся в директорию `debug_modules`, изменяй файл `{0}.py`, и смотри изменения в режиме реального времени</i>"
+    debugging_disabled: "<emoji document_id=5332533929020761310>✅</emoji> <b>Режим разработчика выключен</b>"
+    results_ping: "<emoji document_id=5458694341323136053>🎩</emoji> 𝐾𝑜𝑡:</b> <code>{}</code> 𝑚𝑠\n<emoji document_id=5456574066292955837>🌖</emoji> 𝑈𝑝𝑇𝑖𝑚𝑒: </b>{}</b>"
+    ping_hint: "𝐿𝑎𝑣𝐻𝑜𝑠𝑡 𝑃𝑟𝑒𝑚𝑖𝑢𝑚"
